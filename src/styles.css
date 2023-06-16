@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+/*Tailwindcss*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Css*/
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container-global{
+    border: 1px solid red;
+}
